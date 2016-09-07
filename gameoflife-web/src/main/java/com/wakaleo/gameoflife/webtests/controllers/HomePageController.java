@@ -13,14 +13,14 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomePageController {
     // do something nicer for the home page
 
-    /This should be a comment ******
+    //This should be a comment
 
-    @RequestMapping("/")
+@RequestMapping("/")
     public ModelAndView index() {
         return new ModelAndView("home");
     }
 
-    @RequestMapping("/home")
+@RequestMapping("/home")
     public ModelAndView home() {
         return new ModelAndView("home");
     }
